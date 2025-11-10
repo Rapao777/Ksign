@@ -54,6 +54,12 @@ struct SourceAppsView: View {
     @ObservedObject var viewModel: SourcesViewModel
     @State private var _sources: [ASRepository]?
     
+    @FetchRequest(
+        entity: AltSource.entity(),
+        sortDescriptors: [NSSortDescriptor(keyPath: \AltSource.name, ascending: true)],
+        animation: .snappy
+    ) private var _allSources: FetchedResults<AltSource>
+    
     // MARK: Body
     var body: some View {
         ZStack {
@@ -118,6 +124,16 @@ struct SourceAppsView: View {
                     } label: {
                         Text(.localized("Sources"))
                     }
+                }
+            }
+            
+            NBToolbarButton(
+                systemImage: "arrow.trianglehead.2.counterclockwise.rotate.90",
+                style: .icon,
+                placement: .topBarTrailing
+            ) {
+                Task {
+                    await viewModel.fetchSources(_allSources, refresh: true)
                 }
             }
             
