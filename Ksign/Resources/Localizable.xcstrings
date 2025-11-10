@@ -2,7 +2,7 @@
   "sourceLanguage" : "en",
   "strings" : {
     "" : {
-
+      "shouldTranslate" : false
     },
     "%lld" : {
       "localizations" : {
@@ -488,59 +488,6 @@
     "•" : {
       "shouldTranslate" : false
     },
-    "💜 This couldn't of been done without my sponsors!" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "💜Nebylo by to možné bez mých sponzorů!"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "💜 Das konnte ohne meine Sponsoren nicht erledigt werden!"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "💜 This couldn't of been done without my sponsors!"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "💜 ¡Esto no se pudo hacer sin mis patrocinadores!"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "💜 Cela ne pouvait pas avoir été fait sans mes sponsors!"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "💜 Это не было сделано без моих спонсоров!"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "💜 Sponsorlarım olmadan başarılamazdı!"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "💜 Điều này không thể thực hiện được nếu không có các nhà tài trợ của tôi!"
-          }
-        }
-      }
-    },
     "About" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -899,55 +846,13 @@
         }
       }
     },
-    "All of Feathers files are contained in the documents directory, here are some quick links to these." : {
-      "extractionState" : "stale",
+    "All of Ksign files except certificates are contained in the documents directory, here are some quick links to these." : {
+      "extractionState" : "manual",
       "localizations" : {
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Všechny soubory Ksign jsou v složce Dokumenty, zde jsou na ně rychlé odkazy."
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Alle KSign -Dateien sind im Dokumentenverzeichnis enthalten. Hier finden Sie einige schnelle Links zu diesen."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "All of Ksign files are contained in the documents directory, here are some quick links to these."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Todos los archivos KSign están contenidos en el directorio de documentos, aquí hay algunos enlaces rápidos a estos."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tous les fichiers KSign sont contenus dans le répertoire des documents, voici quelques liens rapides vers ceux-ci."
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Все файлы ksign содержатся в каталоге документов, вот несколько быстрых ссылок на них."
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Feather’ın tüm dosyaları “Belgeler” klasöründe yer almaktadır. Yukarıda yer alan bağlantılar ile bunlardan bazılarına erişebilirsiniz."
-          }
-        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tất cả các tệp của Ksign được chứa trong thư mục tài liệu, đây là một số liên kết nhanh đến chúng."
+            "value" : "Tất cả các tệp của Ksign trừ chứng chỉ được chứa trong thư mục tài liệu, đây là một số liên kết nhanh đến chúng."
           }
         }
       }
@@ -1173,6 +1078,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tính năng"
+          }
+        }
+      }
+    },
+    "App Icon" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biểu tượng app"
           }
         }
       }
@@ -2655,6 +2571,17 @@
         }
       }
     },
+    "Downloads" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tải về"
+          }
+        }
+      }
+    },
     "Dylibs" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -2744,6 +2671,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Danh sách trống"
+          }
+        }
+      }
+    },
+    "Enable Liquid Glass" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bật Liquid Glass"
           }
         }
       }
@@ -3078,6 +3016,7 @@
       }
     },
     "Error" : {
+      "extractionState" : "stale",
       "localizations" : {
         "vi" : {
           "stringUnit" : {
@@ -3099,6 +3038,7 @@
       }
     },
     "Error: %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "vi" : {
           "stringUnit" : {
@@ -3546,6 +3486,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tính năng"
+          }
+        }
+      }
+    },
+    "Fetching..." : {
+      "comment" : "Đang tải...",
+      "extractionState" : "manual",
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang tải…"
           }
         }
       }
@@ -4137,6 +4089,28 @@
         }
       }
     },
+    "Get started by downloading your first IPA file." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bắt đầu bằng cách tải IPA đầu tiên của bạn."
+          }
+        }
+      }
+    },
+    "Get started by importing your first file." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bắt đầu bằng cách nhập file đầu tiên của bạn."
+          }
+        }
+      }
+    },
     "Get started by importing your first IPA files." : {
       "extractionState" : "manual",
       "localizations" : {
@@ -4144,6 +4118,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bắt đầu bằng cách nhập IPA đầu tiên của bạn."
+          }
+        }
+      }
+    },
+    "Get started signing by importing your first certificate." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bắt đầu bằng cách nhập chứng chỉ đầu tiên của bạn."
           }
         }
       }
@@ -4318,7 +4303,14 @@
       }
     },
     "Hex Editor" : {
-
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chỉnh sửa Hex"
+          }
+        }
+      }
     },
     "Hidden" : {
       "extractionState" : "manual",
@@ -5228,9 +5220,6 @@
         }
       }
     },
-    "Key" : {
-      "extractionState" : "manual"
-    },
     "Library" : {
       "comment" : "Library tab",
       "extractionState" : "manual",
@@ -5337,12 +5326,6 @@
           }
         }
       }
-    },
-    "Loading file..." : {
-
-    },
-    "Loading plist..." : {
-
     },
     "Logs" : {
       "extractionState" : "manual",
@@ -5853,6 +5836,17 @@
         }
       }
     },
+    "No Files" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không có tệp nào"
+          }
+        }
+      }
+    },
     "No pairing file found, please import it." : {
       "extractionState" : "manual",
       "localizations" : {
@@ -5902,6 +5896,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Không tìm thấy tệp ghép nối, vui lòng nhập tệp."
+          }
+        }
+      }
+    },
+    "No Tweaks" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không có Tweak"
           }
         }
       }
@@ -6618,7 +6623,14 @@
       }
     },
     "Plist Editor" : {
-
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chỉnh sửa Plist"
+          }
+        }
+      }
     },
     "PPQ Protection" : {
       "extractionState" : "manual",
@@ -7115,6 +7127,17 @@
         }
       }
     },
+    "Remove app after signed" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xoá app sau khi ký"
+          }
+        }
+      }
+    },
     "Remove Provisioning" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -7407,6 +7430,17 @@
         }
       }
     },
+    "Replace Substrate with ElleKit" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thay đổi Substrate với ElleKit"
+          }
+        }
+      }
+    },
     "Replacement" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -7566,6 +7600,17 @@
         }
       }
     },
+    "Reset the applications sources, certificates, apps, and general contents" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đặt lại kho ứng dụng, chứng chỉ, app, và những thứ khác."
+          }
+        }
+      }
+    },
     "Restart Heartbeat" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -7673,7 +7718,14 @@
       }
     },
     "Root Dictionary" : {
-
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thư mục gốc"
+          }
+        }
+      }
     },
     "Save" : {
       "localizations" : {
@@ -7728,7 +7780,14 @@
       }
     },
     "Search hex or ASCII" : {
-
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tìm kiếm Hex hoặc ASCII"
+          }
+        }
+      }
     },
     "See all apps from your sources" : {
       "comment" : "All repositories description",
@@ -8128,6 +8187,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chia sẻ"
+          }
+        }
+      }
+    },
+    "Show Dylibs" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiển thị Dylibs"
           }
         }
       }
@@ -8976,6 +9046,17 @@
         }
       }
     },
+    "Stuck? Check if you have any sources added." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kẹt? Kiểm tra xem bạn đã thêm nguồn nào chưa."
+          }
+        }
+      }
+    },
     "Submit Feedback" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -9343,6 +9424,28 @@
         }
       }
     },
+    "This enables liquid glass for this app, this requires a restart of the app to take effect." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cái này sẽ bật liqid glass cho Ksign, yêu cầu khởi động lại app"
+          }
+        }
+      }
+    },
+    "This option force converts apps to try to use the new liquid glass redesign iOS 26 introduced, this may not work for all applications due to differing frameworks." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lựa chọn này sẽ bắt app sử dụng liquid glass trên iOS 26, tuy nhiên vài app có thể sẽ không hoạt động nếu framework khác nhau."
+          }
+        }
+      }
+    },
     "This property list contains no items" : {
       "localizations" : {
         "vi" : {
@@ -9360,6 +9463,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bật sẽ giúp cho ứng dụng chạy nền khi bạn đóng ứng dụng, hữu ích khi tải hoặc cài app"
+          }
+        }
+      }
+    },
+    "This will remove app after signed (Downloaded apps)" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cái này sẽ xoá ứng dụng sau khi ký (ứng dụng đã tải)"
           }
         }
       }
