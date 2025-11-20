@@ -30,13 +30,12 @@ struct SigningPropertiesView: View {
 				.textInputAutocapitalization(.none)
             
             Section {
-                if let certAppId {
-                    Button {
-                        text = certAppId
-                    } label: {
-                        Text(.localized("Matching Certificate's App ID"))
-                    }
+                Button {
+                    text = certAppId ?? ""
+                } label: {
+                    Text(.localized("Matching Certificate's App ID"))
                 }
+                .disabled(certAppId == nil)
             } footer: {
                 Text(.localized("Use certiticate's app ID, this will help the app have access to features that uses certificate's entitlements."))
             }
