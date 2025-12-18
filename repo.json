@@ -18,6 +18,15 @@
             "category": "utilities",
             "versions": [
                 {
+                    "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/v1.5.1/Ksign.ipa",
+                    "size": 14000000,
+                    "version": "1.5.1",
+                    "buildVersion": "1",
+                    "date": "2025-12-18T01:41:00+07:00",
+                    "localizedDescription": "Hawwo everywan! the next big update is here! thank you for all your feature requests and bug reports!\n\nThis version introduces:\n\n- Notification when finished downloading in background (you can enable in App Features settings) \n- Button that filled bundle ID with certificate's App ID\n- remove support of ksign certificate file\n- prefix / suffix for app name in signing config- refactored the IPA Downloader to just Downloads new features",
+                    "minOSVersion": "16.0"
+                },
+                {
                     "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/v1.5/Ksign.ipa",
                     "size": 14000000,
                     "version": "1.5",
@@ -55,10 +64,10 @@
                 }
             ],
             "appPermissions": {},
-            "version": "1.3.2",
-            "versionDate": "2025-07-28T14:04:00+07:00",
-            "size": 13400000,
-            "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/v1.3.2/Ksign.ipa"
+            "version": "1.5.1",
+            "versionDate": "2025-12-18T01:41:00+07:00",
+            "size": 14000000,
+            "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/v1.5.1/Ksign.ipa"
         }
     ]
 }
