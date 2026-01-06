@@ -84,6 +84,9 @@ final class AppFileHandler: NSObject, @unchecked Sendable {
 				if let download = download {
 					DispatchQueue.main.async {
 						download.unpackageProgress = progress
+                        if #available(iOS 26.0, *) {
+                            BackgroundTaskManager.shared.updateProgress(for: download.id, progress: download.overallProgress)
+                        }
 					}
 				}
 			}
@@ -100,6 +103,9 @@ final class AppFileHandler: NSObject, @unchecked Sendable {
 			if let download = download {
 				DispatchQueue.main.async {
 					download.unpackageProgress = progress
+                    if #available(iOS 26.0, *) {
+                        BackgroundTaskManager.shared.updateProgress(for: download.id, progress: download.overallProgress)
+                    }
 				}
 			}
 			let destinationPath = _uniqueWorkDir.appendingPathComponent(entry.path)
